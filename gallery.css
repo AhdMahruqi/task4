@@ -1,0 +1,37 @@
+.photos {
+    display: none;  
+    }
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+  font-weight: bolder;
+  }
+
+.photo_img {
+    vertical-align: middle;
+    height: 500px;
+    width: auto;
+  }
+
+.photo_gallery {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

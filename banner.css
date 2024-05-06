@@ -1,0 +1,22 @@
+#banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(187, 178, 178);
+    color: blueviolet;
+    padding: 10px;
+    /* add animation to the banner*/
+    animation: moveBanner 20s linear infinite;
+  }
+  /* adding sliding effect to the banner */
+  @keyframes moveBanner {
+    /* banner to the right */ 
+    0% {
+      transform: translateX(100%);
+    }
+    /* banner to the left */ 
+    100% {
+      transform: translateX(-100%);
+    }
+  }
